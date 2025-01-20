@@ -10,7 +10,6 @@ This project is a machine learning-based API for customer segmentation, using KM
 - Streamlit dashboard for visualization
 - Dockerized for ease of deployment
 
----
 
 ## Prerequisites
 
@@ -18,7 +17,6 @@ This project is a machine learning-based API for customer segmentation, using KM
 2. Docker (for containerized deployment)
 3. Git (optional for cloning the repository)
 
----
 
 ## Installation
 
@@ -35,7 +33,6 @@ This project is a machine learning-based API for customer segmentation, using KM
    pip install -r requirements.txt
    ```
 
----
 
 ## Running the API Locally
 
@@ -49,7 +46,6 @@ uvicorn src.app:app --reload
 
 [Access the API documentation](http://127.0.0.1:8000/docs).
 
----
 
 ## Running the Streamlit Dashboard
 
@@ -84,7 +80,6 @@ docker run -d -p 8000:8000 customer-segmentation-app
 
 [Access the API documentation](http://127.0.0.1:8000/docs).
 
----
 
 ## Deploying the Model with FastAPI
 
@@ -106,7 +101,6 @@ The FastAPI-based model deployment allows you to serve predictions via a REST AP
 
 For containerized deployment, use the Docker instructions provided above.
 
----
 
 ## Testing the API
 
