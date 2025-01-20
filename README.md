@@ -58,7 +58,6 @@ uvicorn src.app:app --reload
 
 ![alt text](image.png)
 
----
 
 ## Using Docker
 
