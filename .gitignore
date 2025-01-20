@@ -1,0 +1,42 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+
+# Data folder
+/data
+
+# Virtual Environments
+venv/
+.venv/
+env/
+virtualenv/
+
+# Build and dist folders
+build/
+dist/
+
+# Log files
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Config files
+config.ini
+config.json
+config.yml
+
+# System files
+Thumbs.db
+.DS_Store
